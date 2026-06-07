@@ -34,7 +34,7 @@ code #5
 
 names =[]
 
-reverse= true for output order
+reverse=
 with open("names.txt") as file:
     for line in file:
         names.append(line.rstrip())
